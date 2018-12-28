@@ -105,3 +105,32 @@ for (nu in numbers) {
   print(nu)
 }
 
+
+
+#example
+rquote <- "r's internals are irrefutably intriguing"
+chars <- strsplit(rquote, split = "")[[1]]
+
+# Initialize rcount
+rcount <- 0
+
+# Finish the for loop
+for (char in chars) {
+  if (char == "r") {
+    rcount <- rcount + 1
+  }
+  if (char == "u") {
+    break
+  }
+}
+
+
+rcount
+
+
+values <-c(1,5,6,7)
+sd(values)
+
+
+
+  
